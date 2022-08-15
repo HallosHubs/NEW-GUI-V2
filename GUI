@@ -1,5 +1,4 @@
--- WONT INJECT OTHER THAN DAHOOD
-if game.PlaceId == 2788229376 then
+
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     local Window = OrionLib:MakeWindow({Name = "Hallos Gui - Da Hood 🔫", HidePremium = true, IntroEnabled = false,IntroText = "Hallos gui", SaveConfig = true, ConfigFolder = "OrionTest"})
     
@@ -1707,15 +1706,13 @@ game.Players.PlayerAdded:Connect(
         Name = "Youtube"
     })
 
-    https://www.youtube.com/channel/UC5HlsxHbQ5j1g4DIT09CQ_g
-
     Tab:AddButton({
-        Name = "https://www.youtube.com/channel/UC5HlsxHbQ5j1g4DIT09CQ_g!",
+        Name = "Lookup Hallos scripts",
         Callback = function()
                   
           end    
     })
 
 
-    end
+    
     OrionLib:Init()
